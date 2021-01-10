@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+		<style>
+			::-webkit-scrollbar {
+				display: none;
+			}
+		</style>
+	</head>
+	<body
+		style="
+			margin: 0%;
+			padding: 0%;
+			box-sizing: border-box;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+				'Lucida Sans', Arial, sans-serif;
+		"
+	>
+		<!-- Navbar -->
+		<div
+			style="
+				top: 0;
+				left: 0;
+				width: 100%;
+				position: fixed;
+				display: flex;
+				justify-content: space-between;
+				background-color: rgba(134, 37, 68, 0.9);
+			"
+		>
+			<div style="padding: 6px 74px">
+				<a href="Home.html">
+					<img
+						src="./Images/panaCloud.png"
+						alt="PanaCloud_Logo"
+						title="panaCloud"
+						width="175px"
+						height="100px"
+					/>
+				</a>
+			</div>
+			<div style="margin-top: 35px; padding: 6px 74px">
+				<ul style="display: flex; list-style-type: none; font-size: 22px">
+					<li style="margin-right: 32px">
+						<a
+							style="text-decoration: none; color: white; letter-spacing: 1.3px"
+							href="Home.html"
+							>Home
+						</a>
+					</li>
+					<li style="margin-right: 32px">
+						<a
+							style="text-decoration: none; color: white; letter-spacing: 1.3px"
+							href="About.html"
+							>About
+						</a>
+					</li>
+					<li style="margin-right: 32px">
+						<a
+							style="text-decoration: none; color: white; letter-spacing: 1.3px"
+							href="Portfolio.html"
+							>Portfolio
+						</a>
+					</li>
+					<li style="margin-right: 8px">
+						<a
+							style="
+								text-decoration: none;
+								color: white;
+								letter-spacing: 1.3px;
+								padding-bottom: 4px;
+								border-bottom: 2px solid white;
+								font-weight: bold;
+							"
+							href="Contact.html"
+							>Contact
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- ------- -->
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+
+		<!-- Contact Form start -->
+		<div style="margin: 30px auto; width: 1100px">
+			<div
+				style="
+					text-align: center;
+					border-right: 5px solid rgba(134, 37, 68, 0.9);
+					border-left: 5px solid rgba(134, 37, 68, 0.9);
+					background-color: rgba(134, 37, 68, 0.1);
+				"
+			>
+				<h1>Feedback Form</h1>
+			</div>
+			<form>
+				<fieldset>
+					<legend>Your Details:</legend>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" />
+					<br />
+					<br />
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" />
+				</fieldset>
+				<br />
+				<fieldset>
+					<legend>Your Review:</legend>
+					<label for="hear">how did you hear about us?</label>
+					<select name="hear_about_us" id="hear">
+						<option value="google">Google</option>
+						<option value="social_media">Social Media</option>
+						<option value="friend">Friend</option>
+						<option value="ad">Ad</option>
+					</select>
+					<br />
+					<br />
+					<label for="visit">Would your visit again?</label>
+					<input type="radio" name="visit" id="yes" />
+					<label for="yes">Yes</label>
+					<input type="radio" name="visit" id="no" />
+					<label for="no">No</label>
+					<input type="radio" name="visit" id="maybe" />
+					<label for="maybe">Maybe</label>
+					<br />
+					<br />
+					<label for="comment">Comments:</label>
+					<br />
+					<textarea name="comment" id="comment" cols="40" rows="7"></textarea>
+					<br />
+					<br />
+					<input type="checkbox" name="signUp" id="signUp" />
+					<label for="signUp">Sign me up for email updates</label>
+					<br />
+					<br />
+					<button>Submit review</button>
+				</fieldset>
+			</form>
+		</div>
+		<!-- Contact Form end -->
+
+		<!-- Google Map start -->
+		<div style="margin: 50px auto; width: 1100px">
+			<div
+				style="
+					text-align: center;
+					border-right: 5px solid rgba(134, 37, 68, 0.9);
+					border-left: 5px solid rgba(134, 37, 68, 0.9);
+					background-color: rgba(134, 37, 68, 0.1);
+				"
+			>
+				<h1>Google Map</h1>
+			</div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151677.40893763828!2d9.787739869830732!3d53.55849017156834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b161837e1813b9%3A0x4263df27bd63aa0!2sHamburg%2C%20Germany!5e0!3m2!1sen!2s!4v1610270513828!5m2!1sen!2s"
+				width="100%"
+				height="650"
+				frameborder="0"
+				style="border: 0"
+				allowfullscreen=""
+				aria-hidden="false"
+				tabindex="0"
+			></iframe>
+		</div>
+		<!-- Google Map end -->
+
+		<!-- Footer -->
+		<div
+			style="
+				text-align: center;
+				background-color: rgba(134, 37, 68, 0.9);
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				color: white;
+				text-align: center;
+			"
+		>
+			<footer style="padding: 12px 0; color: white; word-spacing: 2px">
+				Copyright @ 2021, All right reserved
+			</footer>
+		</div>
+		<!-- ------- -->
+	</body>
+</html>
